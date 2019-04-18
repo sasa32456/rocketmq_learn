@@ -1,0 +1,10 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: rocketmq-provider
+
+rocketmq:
+  config:
+    nameserAddr: 192.168.10.149:9876

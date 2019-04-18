@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rocketmq-spring-provider
+
+server:
+  port: 9080
+
+rocketmq:
+  name-server: 192.168.10.149:9876
+  producer:
+    group: my-group
