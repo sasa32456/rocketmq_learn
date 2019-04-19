@@ -108,7 +108,7 @@ class TransactionListenerImpl implements TransactionListener {
             return LocalTransactionState.ROLLBACK_MESSAGE;
         }
 
-        return LocalTransactionState.COMMIT_MESSAGE;
+        return LocalTransactionState.ROLLBACK_MESSAGE;
     }
 
     /**

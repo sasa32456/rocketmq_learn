@@ -5,7 +5,3 @@ spring:
 server:
   port: 9081
 
-rocketmq:
-  name-server: 192.168.10.149:9876
-  producer:
-    group: my-group
